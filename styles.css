@@ -1,0 +1,80 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.body {
+    margin: 20px;
+}
+
+.logo{
+    height: 172px;
+}
+
+.wrapper{
+   
+    width: 400px;
+     position: relative;
+     margin: 0px auto;
+     text-shadow:-1px 0 #181A18, 0 1px #181A18, 1px 0 black, 0 -1px #181A18;
+;
+
+}
+
+.card {
+  background-color: #f4f0ee;
+  color: #e17596;
+  height: 150px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background:  #f4f0ee;
+  color: #e17596;
+  transition: transform 800ms ease-in-out;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  perspective: 250px;
+  float: none; 
+  margin-bottom: 10px; 
+  border-style: ridge;
+  border-width: 3px
+}
+
+.name {
+   
+}
+
+.wrapper:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.wrapper:hover .back {
+  transform: rotateY(0deg);
+}
+
+.name{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listy {
+          display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-text {
+    margin: 35px auto;
+}
+
+.p {
+    color: 
+}
